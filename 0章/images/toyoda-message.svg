@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradtoyoda-message.jpg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C5F8D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a4564;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#gradtoyoda-message.jpg)" />
+  <text x="400.0" y="480.0" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" opacity="0.8">
+    💭
+  </text>
+  <text x="400.0" y="540.0" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" opacity="0.6">
+    Toyoda Message
+  </text>
+  <text x="400.0" y="570.0" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" opacity="0.5">
+    800 × 1000
+  </text>
+</svg>
