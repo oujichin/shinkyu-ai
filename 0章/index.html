@@ -3,1062 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="治療家向け心理学講座「Tメソッド」。心因性症状・不定愁訴に明確な見立てを立て、患者さんの人生を動かす治療家になる。">
+    <meta name="description" content="治療家向けTメソッド講座。心因性症状・不定愁訴に明確な見立てを立て、本音を引き出す問診を体系的に学ぶ。">
     <meta name="keywords" content="Tメソッド, 治療家, 心理学, 鍼灸, 整体, 心因性症状, 不定愁訴, 問診">
-    <title>Tメソッド講座 | 心の背景を読み解き、患者さんの人生を動かす治療家になる</title>
+    <title>Tメソッド講座 | 心の背景を整理し、見立てと問診の軸をつくる</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- ヘッダー -->
-    <header class="header">
-        <div class="container">
+    <header class="header" id="top">
+        <div class="container header-inner">
             <div class="logo">Tメソッド講座</div>
+            <a href="#pricing" class="btn btn-primary btn-small smooth-scroll">購入</a>
         </div>
     </header>
 
-    <!-- ファーストビュー -->
-    <section class="hero" id="top">
-        <div class="hero-overlay"></div>
+    <section class="hero">
         <div class="hero-bg">
-            <img src="images/hero-bg.svg" alt="温かい光が差し込む治療院" class="placeholder-img" data-prompt="柔らかい光が差し込む治療院の室内。患者さんが治療ベッドに横たわり、治療家が穏やかな表情で寄り添っている様子。温かみのあるトーン、ぼかし効果">
+            <img src="images/hero.webp" alt="温かい光が差し込む治療院">
         </div>
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 class="hero-title">
-                <span class="hero-title-sub">「技術はあるのに、救えない患者がいる」</span>
-                <span class="hero-title-main">その悔しさを、力に変えませんか？</span>
-            </h1>
-            <p class="hero-subtitle">
-                心の背景を読み解き、<br>
-                患者さんの人生を動かす治療家になる<br>
-                <strong>【Tメソッド講座】</strong>
-            </p>
-            <div class="hero-divider"></div>
-            <p class="hero-description">
-                心因性症状・不定愁訴に明確な見立てを立て、<br>
-                患者さんが「初めて言えました」と涙する<br>
-                問診ができるようになる
-            </p>
-            <div class="hero-buttons">
-                <a href="#course-content" class="btn btn-primary btn-large smooth-scroll">
-                    講座の詳細を見る
-                    <span class="btn-icon">▼</span>
-                </a>
-                <a href="#contact-form" class="btn btn-secondary btn-large smooth-scroll">
-                    無料相談を申し込む
-                </a>
+            <p class="hero-kicker">治療家向けオンライン講座</p>
+            <h1 class="hero-title">「技術はあるのに、救えない患者がいる」<br>その悔しさを、力に変える。</h1>
+            <p class="hero-subtitle">心因性症状・不定愁訴に明確な見立てを立て、<br>本音を引き出す問診ができるようになる</p>
+            <div class="hero-actions">
+                <a href="#pricing" class="btn btn-primary btn-large smooth-scroll">今すぐ購入する</a>
             </div>
         </div>
     </section>
 
-    <!-- 問題提起 -->
-    <section class="section problem-section" id="problem">
+<section class="section" id="method">
         <div class="container">
-            <h2 class="section-title">治療家として、こんな経験はありませんか？</h2>
-            <div class="section-divider"></div>
+            <h2 class="section-title">Tメソッドとは</h2>
+            <p class="section-lead">心の背景を整理し、自己受容へ導くための実践的メソッドです。</p>
 
-            <ul class="problem-list">
-                <li class="problem-item">
-                    <span class="problem-icon">✓</span>
-                    <span class="problem-text">施術自体は間違っていないのに、改善しない理由が見えず、説明に詰まってしまう</span>
-                </li>
-                <li class="problem-item">
-                    <span class="problem-icon">✓</span>
-                    <span class="problem-text">うつや不安が強い患者さんに「何とかしてください」と言われても、どう関わればいいか分からず、悔しさが残る</span>
-                </li>
-                <li class="problem-item">
-                    <span class="problem-icon">✓</span>
-                    <span class="problem-text">問診で本音を引き出せず、"表面的なまま終わってしまった" と感じることがある</span>
-                </li>
-                <li class="problem-item">
-                    <span class="problem-icon">✓</span>
-                    <span class="problem-text">話を聞くほど「心の影響が大きい」と感じるのに、そこから先に踏み込む方法が分からず、限界を感じる</span>
-                </li>
-            </ul>
-
-            <div class="problem-image">
-                <img src="images/problem-therapist.svg" alt="悩む治療家" class="placeholder-img" data-prompt="治療家が悩んでいる様子。デスクに肘をつき、手で額を押さえている。カルテや資料が散らばっている。窓から差し込む光が、孤独感を演出。モノクロまたは彩度低め">
-            </div>
-
-            <p class="problem-conclusion">
-                技術を磨き、経験も積んできた。<br>
-                それでも、こうした場面に出会うと、<br>
-                「今の自分のアプローチでは届かない部分がある」<br>
-                と感じることがあります。<br>
-                <br>
-                身体の施術だけでは、救いきれないケースが確かにある――<br>
-                <strong>そう感じている治療家の方へ。</strong>
-            </p>
-        </div>
-    </section>
-
-    <!-- 自己紹介＆ストーリー -->
-    <section class="section story-section" id="story">
-        <div class="container">
-            <h2 class="section-title">なぜ治療家に心理学が必要なのか</h2>
-            <div class="section-divider"></div>
-
-            <div class="profile-card">
-                <div class="profile-left">
-                    <div class="profile-image">
-                        <img src="images/profile-toyoda.svg" alt="豊田先生" class="placeholder-img" data-prompt="豊田先生の写真: 柔らかい笑顔、白衣または清潔感のある服装、背景は治療院の室内または白背景。胸から上のバストアップ。温かみと信頼感を感じさせる表情。正方形または円形トリミング">
-                    </div>
-                    <div class="profile-info">
-                        <h3 class="profile-name">豊田</h3>
-                        <p class="profile-title">鍼灸師、Tメソッド開発者</p>
-                    </div>
+            <div class="pillars">
+                <div class="pillar-card reveal">
+                    <h3>心の5階層理論</h3>
+                    <p>認知の歪みから自己受容まで、構造で見立てる。</p>
                 </div>
-                <div class="profile-right">
-                    <h4 class="profile-heading">経歴</h4>
-                    <ul class="profile-career">
-                        <li>心理学部 → 大学院で感情と思考の歪みを研究</li>
-                        <li>介護現場で「心が崩れていく」現実を目の当たりに</li>
-                        <li>鍼灸師として心身両面へのアプローチを追求</li>
-                        <li>自身も指定難病を抱え、自己受容の力を実感</li>
-                    </ul>
+                <div class="pillar-card reveal">
+                    <h3>心の流れの理解</h3>
+                    <p>認知→感情→不調→身体反応の流れを捉える。</p>
+                </div>
+                <div class="pillar-card reveal">
+                    <h3>心理的解放問診</h3>
+                    <p>本音に届く質問の型を再現できる。</p>
                 </div>
             </div>
 
-            <div class="story-timeline">
-                <div class="story-item">
-                    <div class="story-icon">📖</div>
-                    <div class="story-content">
-                        <h4>大学院</h4>
-                        <p>私は大学院で心理学を学び、「感情が思考をどう歪めるか」を研究してきました。</p>
-                    </div>
-                </div>
-                <div class="story-item">
-                    <div class="story-icon">🏥</div>
-                    <div class="story-content">
-                        <h4>介護現場</h4>
-                        <p>介護の現場では、心が崩れていくとはどういうことなのか、その現実を目の当たりにしました。</p>
-                    </div>
-                </div>
-                <div class="story-item">
-                    <div class="story-icon">💊</div>
-                    <div class="story-content">
-                        <h4>自身の病気</h4>
-                        <p>自身も指定難病を抱え、自己受容の大切さを身をもって知りました。</p>
-                    </div>
-                </div>
-                <div class="story-item">
-                    <div class="story-icon">💔</div>
-                    <div class="story-content">
-                        <h4>忘れられない患者</h4>
-                        <p>そして鍼灸師として臨床に立つ中で、20代の若い女性が、自己否定に苦しみながら命を絶ってしまった――その出来事が、私の治療家人生を大きく変えました。</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="story-image">
-                <img src="images/story-sunset.svg" alt="決意を固める治療家" class="placeholder-img" data-prompt="夕暮れの窓辺、一人佇む治療家のシルエット。窓の外は夕焼け。深い思索にふける様子。孤独だが、決意を感じさせる構図">
-            </div>
-
-            <div class="highlight-box">
-                <p class="highlight-text">
-                    「どうすれば彼女を救えただろうか」<br>
-                    <br>
-                    この問いと向き合い続けた結果として生まれたのが、<br>
-                    <strong>Tメソッドです。</strong>
-                </p>
+            <div class="instructor">
+                <p class="instructor-name">講師: 豊田（鍼灸師 / Tメソッド開発者）</p>
+                <p class="instructor-note">心理学×臨床の経験から体系化</p>
             </div>
         </div>
     </section>
 
-    <!-- Tメソッドとは -->
-    <section class="section method-section" id="method">
+<section class="section" id="course">
         <div class="container">
-            <h2 class="section-title">Tメソッドとは？</h2>
-            <p class="section-subtitle">心の背景を読み解き、患者さんを幸せに導く方法</p>
-            <div class="section-divider"></div>
-
-            <div class="method-intro">
-                <p>
-                    Tメソッドは、治療家が心の背景を理解し、<br>
-                    患者さんの自己受容を促すための体系的なメソッドです。<br>
-                    <br>
-                    複雑な心理療法を習得する必要はありません。<br>
-                    必要なのは、患者さんの心の中で何が起きているのか、<br>
-                    その背景を理解することです。
-                </p>
-            </div>
-
-            <h3 class="method-pillars-title">3つの柱</h3>
-
-            <div class="method-pillars">
-                <div class="method-pillar">
-                    <div class="pillar-number">1</div>
-                    <h4 class="pillar-title">心の5階層理論</h4>
-                    <div class="pillar-diagram">
-                        <img src="images/5-layers-diagram.svg" alt="心の5階層図" class="placeholder-img" data-prompt="ピラミッド構造で5階層を表現。表層から深層へ: ①認知の歪み（考え方のクセ）、②スキーマ（無意識の自己否定的イメージ）、③メタ認知（自分を客観視する力）、④心理的視野狭窄（思考の余裕がない状態）、⑤自己受容（今の自分を認めること）。階層間を矢印で結び、相互関係を示す">
-                    </div>
-                    <ul class="pillar-list">
-                        <li>認知の歪み（考え方のクセ）</li>
-                        <li>スキーマ（無意識の自己否定的イメージ）</li>
-                        <li>メタ認知（自分を客観視する力）</li>
-                        <li>心理的視野狭窄（思考の余裕がない状態）</li>
-                        <li>自己受容（今の自分を認めること）</li>
-                    </ul>
-                </div>
-
-                <div class="method-pillar">
-                    <div class="pillar-number">2</div>
-                    <h4 class="pillar-title">心の流れの理解</h4>
-                    <div class="pillar-diagram">
-                        <img src="images/mind-flow-diagram.svg" alt="心の流れ図" class="placeholder-img" data-prompt="フローチャート形式: 認知 → 感情 → 心の不調 → 自律神経の乱れ → 身体反応。各ステージに簡単な説明を追加。矢印で流れを示す">
-                    </div>
-                    <p class="pillar-description">
-                        認知 → 感情 → 心の不調 → 自律神経の乱れ → 身体反応<br>
-                        どこで介入すべきかが見えるようになる
-                    </p>
-                </div>
-
-                <div class="method-pillar">
-                    <div class="pillar-number">3</div>
-                    <h4 class="pillar-title">心理的解放問診</h4>
-                    <div class="pillar-illustration">
-                        <img src="images/counseling-illustration.svg" alt="心理的解放問診" class="placeholder-img" data-prompt="治療家と患者が向かい合い、患者が涙を流しながら話している様子。治療家は優しく耳を傾けている。温かみのある色使い、柔らかいタッチのイラスト">
-                    </div>
-                    <ul class="pillar-list">
-                        <li>自己否定の奥にある本音に触れるための問診技術</li>
-                        <li>「初めて言うのですが」という言葉を引き出す再現性のある型</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 変化が起きる -->
-    <section class="section changes-section" id="changes">
-        <div class="container">
-            <h2 class="section-title">Tメソッドを学ぶと、こんな変化が起きます</h2>
-            <div class="section-divider"></div>
-
-            <div class="change-cards">
-                <div class="change-card">
-                    <div class="change-icon">🔍</div>
-                    <h3 class="change-title">1. 治療の見立てが変わる</h3>
-                    <div class="change-comparison">
-                        <div class="before">
-                            <h4>Before:</h4>
-                            <ul>
-                                <li>原因が分からず説明に詰まる</li>
-                                <li>表面的な症状しか見えない</li>
-                            </ul>
-                        </div>
-                        <div class="after">
-                            <h4>After:</h4>
-                            <ul>
-                                <li>✓ 認知の歪みや心の背景まで見て、いま何が起きているのかを見立てられる</li>
-                                <li>✓ 自己否定の原因が見立てられ、どうすれば自己受容に向かえるのかまで整理できる</li>
-                                <li>✓ 原因不明と言われてきた症状に対しても、明確に説明できるようになる</li>
-                                <li>✓ 見立てを伝えた瞬間に、患者さんの表情の緊張がほどける</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="change-card">
-                    <div class="change-icon">🧘</div>
-                    <h3 class="change-title">2. 心の姿勢（軸）が変わる</h3>
-                    <div class="change-comparison">
-                        <div class="before">
-                            <h4>Before:</h4>
-                            <ul>
-                                <li>患者さんの言葉に心が揺れる</li>
-                                <li>分からないことを言えない</li>
-                            </ul>
-                        </div>
-                        <div class="after">
-                            <h4>After:</h4>
-                            <ul>
-                                <li>✓ どのような患者さんと向き合っても、心が揺れなくなる</li>
-                                <li>✓ 「分からない」を恥じず、一緒に見極めていける</li>
-                                <li>✓ 患者さんがどれほど混乱していても、自分の軸を保ちながら対応できる</li>
-                                <li>✓ 拙速に評価せず、症状の背景と原因を丁寧に見立てられる</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="change-card">
-                    <div class="change-icon">💬</div>
-                    <h3 class="change-title">3. 患者さんとの関わり方が変わる</h3>
-                    <div class="change-comparison">
-                        <div class="before">
-                            <h4>Before:</h4>
-                            <ul>
-                                <li>表面的な会話で終わる</li>
-                                <li>本音を引き出せない</li>
-                            </ul>
-                        </div>
-                        <div class="after">
-                            <h4>After:</h4>
-                            <ul>
-                                <li>✓ カウンセリングの技術が上がり、対話の流れを意識して組み立てられる</li>
-                                <li>✓ どんな順番で聴くか、どこで質問するか、どの言葉を拾うかが明確に</li>
-                                <li>✓ 「初めて言うのですが」「誰にも言ったことがないのですが」という本音を引き出せる</li>
-                                <li>✓ 表面的な訴えだけで終わらず、症状の背景まで含めて見立てを深められる</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="change-visual">
-                <img src="images/before-after-comparison.svg" alt="Before/After対比" class="placeholder-img" data-prompt="Before/Afterの対比イメージ。左側: 暗い表情の治療家と患者、壁を感じさせる構図。右側: 明るい表情の治療家と患者、向かい合って笑顔で会話している様子。矢印で左から右への変化を示す">
-            </div>
-        </div>
-    </section>
-
-    <!-- 臨床実例① -->
-    <section class="section case-study-section" id="case1">
-        <div class="container">
-            <h2 class="section-title">心理的解放が起きた瞬間</h2>
-            <p class="section-subtitle">〜宗教2世の女性のケース〜</p>
-            <div class="section-divider"></div>
-
-            <div class="case-timeline">
-                <div class="case-stage">
-                    <h3 class="case-stage-title">初診時</h3>
-                    <div class="case-stage-image">
-                        <img src="images/case1-stage1.svg" alt="不自然に明るい表情" class="placeholder-img" data-prompt="不自然に明るい表情の女性、大きな笑顔だが目が笑っていない。緊張感が伝わる表情。イラスト風">
-                    </div>
-                    <ul class="case-stage-points">
-                        <li>不自然な明るさ、「よろしくお願いします！」</li>
-                        <li>「素の自分を出すと嫌われる」という恐怖</li>
-                    </ul>
-                </div>
-
-                <div class="case-stage">
-                    <h3 class="case-stage-title">背景</h3>
-                    <div class="case-stage-image">
-                        <img src="images/case1-stage2.svg" alt="暗い過去" class="placeholder-img" data-prompt="暗い色調で、幼い子どもが叱られている様子。抽象的な表現で重苦しい過去を示す。モノクロまたはセピア調">
-                    </div>
-                    <ul class="case-stage-points">
-                        <li>宗教2世として育ち、幼少期から自己否定を植え付けられた</li>
-                        <li>従わなければ革のベルトで叩かれる</li>
-                        <li>「好きなことをするな」と言われ続けた</li>
-                    </ul>
-                </div>
-
-                <div class="case-stage">
-                    <h3 class="case-stage-title">問診の展開</h3>
-                    <div class="case-stage-image">
-                        <img src="images/case1-stage3.svg" alt="表情の変化" class="placeholder-img" data-prompt="徐々に表情が変わっていく女性。3段階の表情変化を並べて表示。①明るい笑顔 → ②緊張した表情 → ③涙を流す様子">
-                    </div>
-                    <ul class="case-stage-points">
-                        <li>徐々に明るさが消え、本音が出始める</li>
-                        <li>「園芸が好きなのに…やると胃が痛くなる」</li>
-                        <li>「息子の発達障害は私のせいだ」</li>
-                    </ul>
-                </div>
-
-                <div class="case-stage highlight-stage">
-                    <h3 class="case-stage-title">心理的解放の瞬間</h3>
-                    <div class="case-stage-image">
-                        <img src="images/case1-stage4.svg" alt="心理的解放" class="placeholder-img" data-prompt="涙を流しながら話す女性、治療家が優しく見守っている。光が差し込むような明るい色調。解放感を感じさせる構図。イラスト風">
-                    </div>
-                    <blockquote class="case-quote">
-                        「……私、私として生きていきたいんです。<br>
-                        でも…そうさせない何かが、ずっと頭の中にあって……」
-                    </blockquote>
-                    <p class="case-description">
-                        → 大きく声を上げて泣き崩れる<br>
-                        <br>
-                        これは感情が壊れたのではなく、<br>
-                        抑え続けてきた本音が初めて外に出た瞬間
-                    </p>
-                </div>
-
-                <div class="case-stage">
-                    <h3 class="case-stage-title">変化</h3>
-                    <div class="case-stage-image">
-                        <img src="images/case1-stage5.svg" alt="晴れやかな表情" class="placeholder-img" data-prompt="晴れやかな表情の女性、前を向いて歩き出す様子。明るい色調、希望を感じさせる構図。背景に光が広がっている。イラスト風">
-                    </div>
-                    <blockquote class="case-quote">
-                        「…私、過去に囚われすぎてたんですね」<br>
-                        「"母の価値観"じゃなくて、"私の価値観"で生きてもいいんですね」<br>
-                        「…あ、私って変われるんだな」
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="case-conclusion">
-                <p>
-                    これは偶然ではありません。<br>
-                    心の5階層を理解し、心理的解放問診の型を使うことで、<br>
-                    <strong>再現性を持って患者さんの本音に届くことができるのです。</strong>
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 臨床実例② -->
-    <section class="section case-study-section case-study-alt" id="case2">
-        <div class="container">
-            <h2 class="section-title">心の奥を見立てたとき、人生そのものが動き出す</h2>
-            <p class="section-subtitle">〜アイデンティティの揺らぎを抱えた女性のケース〜</p>
-            <div class="section-divider"></div>
-
-            <div class="case-overview">
-                <div class="case-overview-section">
-                    <h3>症状</h3>
-                    <div class="case-overview-image">
-                        <img src="images/case2-symptoms.svg" alt="症状" class="placeholder-img" data-prompt="苦しそうな表情の女性、吐き気、動悸、不安を示す視覚的なエフェクト。体から波紋のように不調が広がるイメージ。暗めの色調">
-                    </div>
+            <h2 class="section-title">講座内容・提供形式</h2>
+            <div class="course-grid">
+                <div class="course-block reveal">
+                    <h3>カリキュラム（要約）</h3>
                     <ul>
-                        <li>2ヶ月前から吐き気、食欲不振、体重減少</li>
-                        <li>強い不安感、動悸、手の震え</li>
-                        <li>ネガティブな思考、自己否定</li>
-                        <li>「子どももいないし、仕事もできていないし、私、何もないんです」</li>
+                        <li>理論（心の仕組み / 5階層）</li>
+                        <li>見立て（背景の読み取り）</li>
+                        <li>問診（本音を引き出す型）</li>
+                        <li>施術設計（臨床への反映）</li>
                     </ul>
                 </div>
-
-                <div class="case-overview-section">
-                    <h3>見立て</h3>
-                    <div class="case-overview-image">
-                        <img src="images/case2-assessment.svg" alt="見立て図" class="placeholder-img" data-prompt="心の構造を示す図解。中心に「私は価値がない」というスキーマ。そこから派生する認知の歪みを矢印で示す。周囲に「本当の自分が分からない」「自分の価値が分からない」などの言葉を配置">
-                    </div>
+                <div class="course-block reveal">
+                    <h3>提供形式</h3>
                     <ul>
-                        <li>① 自己否定的なイメージ（スキーマ）が働いている</li>
-                        <li>② 「本当の自分が分からない」 → アイデンティティの揺らぎ</li>
-                        <li>③ 中年期の「人生の正午」（ユング）</li>
+                        <li>動画講座 / テキストPDF / ワークシート</li>
+                        <li>質問サポート（●ヶ月）</li>
                     </ul>
                 </div>
-            </div>
-
-            <div class="case-progress">
-                <h3>施術の経過</h3>
-
-                <div class="progress-stage">
-                    <div class="progress-icon">📊</div>
-                    <div class="progress-content">
-                        <h4>▼ 5〜8回目（週1回）</h4>
-                        <ul>
-                            <li>頭が軽くなり、ネガティブな考えが減る</li>
-                            <li>朝から元気に過ごせる日が増える</li>
-                            <li>新しいことに挑戦したい気持ちが出てくる</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="progress-stage">
-                    <div class="progress-icon">✨</div>
-                    <div class="progress-content">
-                        <h4>▼ 9〜10回目（2週に1回）</h4>
-                        <ul>
-                            <li>自律神経の症状が消失</li>
-                            <li>不安を自分で落ち着かせられるようになる</li>
-                            <li>「そんな自分でいいんだ」と思えるように</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="progress-stage highlight-stage">
-                    <div class="progress-icon">🌟</div>
-                    <div class="progress-content">
-                        <h4>▼ 現在（月1回メンテナンス）</h4>
-                        <div class="progress-image">
-                            <img src="images/case2-future.svg" alt="希望に満ちた未来" class="placeholder-img" data-prompt="明るい表情で前を向く女性。机に向かって勉強している様子。希望に満ちた雰囲気。イラスト風">
-                        </div>
-                        <ul>
-                            <li>翻訳の仕事に向けて通信講座で勉強中</li>
-                            <li>これからの人生を自分で選び直している</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="case-transformation">
-                <div class="transformation-before">
-                    <h4>Before:</h4>
-                    <p class="transformation-text">「自分には何もない」</p>
-                </div>
-                <div class="transformation-arrow">▼ ▼ ▼</div>
-                <div class="transformation-after">
-                    <h4>After:</h4>
-                    <p class="transformation-text">「そんな自分でいいんだ」</p>
-                </div>
-            </div>
-
-            <div class="case-conclusion">
-                <p>
-                    症状の改善だけではありません。<br>
-                    <strong>患者さんの人生そのものが動き出す――</strong><br>
-                    それが、Tメソッドの真の価値です。
-                </p>
             </div>
         </div>
     </section>
 
-    <!-- 講座内容 -->
-    <section class="section course-section" id="course-content">
+    <section class="section section-alt" id="pricing">
         <div class="container">
-            <h2 class="section-title">講座で学べる内容</h2>
-            <div class="section-divider"></div>
-
-            <div class="course-materials-image">
-                <img src="images/course-materials.svg" alt="講座教材" class="placeholder-img" data-prompt="講座の全体像を示すイメージ。教材（動画、テキスト、ワークシート）を並べたフラットレイ写真。清潔感のある背景">
-            </div>
-
-            <div class="course-chapters">
-                <div class="course-chapter">
-                    <div class="chapter-icon">📖</div>
-                    <h3 class="chapter-title">第0章: はじめに</h3>
-                    <ul class="chapter-contents">
-                        <li>なぜ治療家に心理学が必要なのか</li>
-                        <li>豊田の経験と、Tメソッド開発の背景</li>
-                        <li>心理的解放問診とは何か</li>
-                        <li>臨床実例</li>
-                    </ul>
+            <h2 class="section-title">料金・購入</h2>
+            <div class="pricing-box reveal">
+                <div class="price-row">
+                    <span>通常価格</span>
+                    <span class="price strikethrough">●●●,●●●円（税込）</span>
                 </div>
-
-                <div class="course-chapter">
-                    <div class="chapter-icon">🧠</div>
-                    <h3 class="chapter-title">第1章: 心の仕組みを理解する（理論編）</h3>
-                    <ul class="chapter-contents">
-                        <li>認知、感情、心の不調、自律神経、身体反応の流れ</li>
-                        <li>心の5階層（認知の歪み、スキーマ、メタ認知、心理的視野狭窄、自己受容）</li>
-                        <li>パニック発作がなぜ起きるのか</li>
-                        <li>スキーマの支配力を弱める方法</li>
-                    </ul>
+                <div class="price-row highlight">
+                    <span>期間限定</span>
+                    <span class="price">●●●,●●●円（税込）</span>
                 </div>
-
-                <div class="course-chapter">
-                    <div class="chapter-icon">🔍</div>
-                    <h3 class="chapter-title">第2章: 心の背景を見立てる（見立て編）</h3>
-                    <ul class="chapter-contents">
-                        <li>認知の歪みの種類と見分け方</li>
-                        <li>スキーマをどう読み取るか</li>
-                        <li>メタ認知の有無を見極める方法</li>
-                        <li>心理的視野狭窄のサインとは</li>
-                        <li>自己受容に向かう道筋の立て方</li>
-                    </ul>
-                </div>
-
-                <div class="course-chapter">
-                    <div class="chapter-icon">💬</div>
-                    <h3 class="chapter-title">第3章: 本音を引き出す問診（実践編）</h3>
-                    <ul class="chapter-contents">
-                        <li>心理的解放問診の型</li>
-                        <li>どんな順番で聴くのか</li>
-                        <li>どこで何を質問するのか</li>
-                        <li>どんな言葉を拾い、どう整理していくのか</li>
-                        <li>患者さんが「初めて言えました」と涙する瞬間の作り方</li>
-                    </ul>
-                </div>
-
-                <div class="course-chapter">
-                    <div class="chapter-icon">🎯</div>
-                    <h3 class="chapter-title">第4章: 施術設計と会話への反映</h3>
-                    <ul class="chapter-contents">
-                        <li>見立てを施術設計にどう反映させるか</li>
-                        <li>自己受容を促す関わり方</li>
-                        <li>フィードバックの言葉選び</li>
-                        <li>通院提案とセルフケアの伝え方</li>
-                    </ul>
-                </div>
-
-                <div class="course-chapter">
-                    <div class="chapter-icon">🧘</div>
-                    <h3 class="chapter-title">第5章: 治療家としての軸と姿勢</h3>
-                    <ul class="chapter-contents">
-                        <li>分からないことを分からないと言える強さ</li>
-                        <li>患者さんの混乱に巻き込まれない方法</li>
-                        <li>自分自身の自己受容を深める</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="course-format">
-                <h3>提供形式</h3>
-                <div class="format-items">
-                    <div class="format-item">
-                        <span class="format-icon">✓</span>
-                        <span class="format-text"><strong>動画講座</strong>（オンライン視聴）<br>全5章、合計●時間</span>
-                    </div>
-                    <div class="format-item">
-                        <span class="format-icon">✓</span>
-                        <span class="format-text"><strong>テキスト教材</strong>（PDF）<br>全●ページ</span>
-                    </div>
-                    <div class="format-item">
-                        <span class="format-icon">✓</span>
-                        <span class="format-text"><strong>ワークシート</strong><br>実践に使える各種シート</span>
-                    </div>
-                    <div class="format-item">
-                        <span class="format-icon">✓</span>
-                        <span class="format-text"><strong>質問サポート</strong><br>メールまたは専用フォーム、●ヶ月間</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="course-learning-image">
-                <img src="images/online-learning.svg" alt="オンライン学習" class="placeholder-img" data-prompt="ノートパソコンまたはタブレットで動画講座を視聴している様子。テキストやノートも見える。明るい自然光、清潔感のあるデスク">
+                <p class="price-note">※●月●日まで</p>
+                <p class="pay-note">支払い方法: 銀行振込のみ</p>
+                <p class="flow">フォーム送信 → 振込案内 → 入金確認 → 受講開始</p>
+                <a href="#" class="btn btn-primary btn-large">今すぐ購入する</a>
             </div>
         </div>
     </section>
 
-    <!-- おすすめの治療家 -->
-    <section class="section recommend-section" id="recommend">
-        <div class="container">
-            <h2 class="section-title">こんな治療家におすすめです</h2>
-            <div class="section-divider"></div>
-
-            <div class="recommend-image">
-                <img src="images/diverse-therapists.svg" alt="多様な治療家" class="placeholder-img" data-prompt="多様な治療家のイメージ。鍼灸師、整体師など、様々な職種の治療家が並んでいる様子。明るい表情、清潔な白衣">
-            </div>
-
-            <ul class="recommend-list">
-                <li class="recommend-item">
-                    <span class="recommend-icon">✓</span>
-                    <span class="recommend-text">心因性症状や不定愁訴への対応に限界を感じている</span>
-                </li>
-                <li class="recommend-item">
-                    <span class="recommend-icon">✓</span>
-                    <span class="recommend-text">うつや不安の強い患者さんへの関わり方を学びたい</span>
-                </li>
-                <li class="recommend-item">
-                    <span class="recommend-icon">✓</span>
-                    <span class="recommend-text">問診で患者さんの本音を引き出せるようになりたい</span>
-                </li>
-                <li class="recommend-item">
-                    <span class="recommend-icon">✓</span>
-                    <span class="recommend-text">症状の背景にある心の問題を理解したい</span>
-                </li>
-                <li class="recommend-item">
-                    <span class="recommend-icon">✓</span>
-                    <span class="recommend-text">治療の見立てを明確にし、患者さんに納得してもらいたい</span>
-                </li>
-                <li class="recommend-item">
-                    <span class="recommend-icon">✓</span>
-                    <span class="recommend-text">患者さんの人生に深く関われる治療家になりたい</span>
-                </li>
-                <li class="recommend-item">
-                    <span class="recommend-icon">✓</span>
-                    <span class="recommend-text">リピート率やLTVを上げたい</span>
-                </li>
-                <li class="recommend-item">
-                    <span class="recommend-icon">✓</span>
-                    <span class="recommend-text">自分自身の治療家としての軸を確立したい</span>
-                </li>
-            </ul>
-
-            <p class="recommend-conclusion">
-                ひとつでも当てはまる方は、この講座があなたのお役に立ちます。
-            </p>
-
-            <div class="recommend-cta">
-                <a href="#pricing" class="btn btn-primary btn-large smooth-scroll">講座の詳細を見る</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- 講師メッセージ -->
-    <section class="section message-section" id="message">
-        <div class="container">
-            <h2 class="section-title">治療家の喜びとは、患者さんの人生に関われること</h2>
-            <div class="section-divider"></div>
-
-            <div class="message-content">
-                <div class="message-image">
-                    <img src="images/toyoda-message.svg" alt="豊田先生" class="placeholder-img" data-prompt="豊田先生の写真: 真剣な表情、または柔らかい笑顔。腕を組んでいるか、リラックスした姿勢。背景は治療院または自然光の入る室内。信頼感と温かみを感じさせる雰囲気">
-                </div>
-                <div class="message-text">
-                    <p>
-                        治療家の喜びとは、患者さんの人生に関われることだと思います。
-                    </p>
-                    <p>
-                        辛い毎日の中で「死にたい」とまで思っていた人が、やっぱり生きててよかったと思えるようになっていく。その変化に関われるのが、治療家の大きな喜びです。
-                    </p>
-                    <p>
-                        人が他人の人生に影響を与えられる場面は、普通に生きていたらそう多くありません。
-                    </p>
-                    <p>
-                        だからこそ、治療家の仕事には価値があります。
-                    </p>
-                    <p>
-                        そしてTメソッドは、そのための方法です。心の背景を読み取り、自己受容に向かう関わりを通して、患者さんを幸せに導く。
-                    </p>
-                    <p>
-                        それは、患者さんの人生に関与できる力を高めることでもあります。
-                    </p>
-                    <div class="message-divider"></div>
-                    <p>
-                        ここまでお話ししてきたのは、特別な才能の話ではありません。
-                    </p>
-                    <p>
-                        心の背景を整理する順番と、問診の型を身につければ、再現できるようになります。
-                    </p>
-                    <p class="message-emphasis">
-                        一緒に学んでいきましょう。
-                    </p>
-                    <p class="message-signature">- 豊田</p>
-                </div>
-            </div>
-
-            <div class="message-visual">
-                <img src="images/therapist-patient-handshake.svg" alt="信頼関係" class="placeholder-img" data-prompt="治療家と患者が笑顔で握手している様子。温かみのある光、信頼関係を感じさせる構図。背景はぼかし、人物にフォーカス">
-            </div>
-        </div>
-    </section>
-
-    <!-- 受講後の未来 -->
-    <section class="section future-section" id="future">
-        <div class="container">
-            <h2 class="section-title">Tメソッドを学んだ後、あなたはこうなります</h2>
-            <div class="section-divider"></div>
-
-            <div class="future-cards">
-                <div class="future-card">
-                    <div class="future-icon">👨‍⚕️</div>
-                    <h3 class="future-title">治療家として</h3>
-                    <ul class="future-list">
-                        <li>✓ 心因性症状や不定愁訴に対して、明確な見立てを立てられる</li>
-                        <li>✓ 患者さんに「初めてこんなに話せました」と言われる</li>
-                        <li>✓ 「あなたに出会えてよかった」と感謝される</li>
-                        <li>✓ 治療家としての軸が確立し、どんな患者さんにも動じなくなる</li>
-                    </ul>
-                </div>
-
-                <div class="future-card">
-                    <div class="future-icon">📈</div>
-                    <h3 class="future-title">ビジネスとして</h3>
-                    <ul class="future-list">
-                        <li>✓ リピート率が上がる</li>
-                        <li>✓ LTV（顧客生涯価値）が増える</li>
-                        <li>✓ 口コミの内容が深くなり、新規患者が増える</li>
-                        <li>✓ 単価を上げられるようになり、時間に余裕ができる</li>
-                    </ul>
-                </div>
-
-                <div class="future-card">
-                    <div class="future-icon">😊</div>
-                    <h3 class="future-title">個人として</h3>
-                    <ul class="future-list">
-                        <li>✓ 自分自身も自己受容できるようになる</li>
-                        <li>✓ 家族と過ごす時間が増える</li>
-                        <li>✓ 心に余裕が生まれる</li>
-                        <li>✓ 「この仕事を選んでよかった」と実感できる</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="future-visual">
-                <img src="images/bright-future.svg" alt="明るい未来" class="placeholder-img" data-prompt="未来のイメージ。明るい治療院で、治療家が自信に満ちた表情で患者と向き合い、患者も笑顔。窓から光が差し込み、希望を感じる構図">
-            </div>
-        </div>
-    </section>
-
-    <!-- 料金・申し込み -->
-    <section class="section pricing-section" id="pricing">
-        <div class="container">
-            <h2 class="section-title">料金・申し込み方法</h2>
-            <div class="section-divider"></div>
-
-            <div class="pricing-overview">
-                <h3>講座内容のおさらい</h3>
-                <ul class="pricing-features">
-                    <li>✓ 動画講座（全5章、合計●時間）</li>
-                    <li>✓ テキスト教材（PDF、全●ページ）</li>
-                    <li>✓ ワークシート</li>
-                    <li>✓ 質問サポート（●ヶ月間）</li>
-                </ul>
-            </div>
-
-            <div class="pricing-box">
-                <div class="pricing-regular">
-                    <span class="pricing-label">通常価格:</span>
-                    <span class="pricing-amount strikethrough">●●●,●●●円（税込）</span>
-                </div>
-                <div class="pricing-special">
-                    <div class="pricing-badge">期間限定価格</div>
-                    <div class="pricing-main">
-                        <span class="pricing-amount-large">●●●,●●●円</span>
-                        <span class="pricing-tax">（税込）</span>
-                    </div>
-                    <div class="pricing-deadline">※●月●日まで</div>
-                </div>
-                <div class="pricing-payment">
-                    <p><strong>支払い方法:</strong></p>
-                    <ul>
-                        <li>• 銀行振込（一括）</li>
-                        <li>• 分割払い対応（●回まで）※要相談</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="application-methods">
-                <h3>申し込み方法</h3>
-
-                <div class="application-method">
-                    <h4>▼ 方法1: フォームから申し込み</h4>
-                    <ol class="application-steps">
-                        <li>下記のフォームに必要事項を記入し、送信してください</li>
-                        <li>3営業日以内に、振込先情報をメールでお送りします</li>
-                        <li>入金確認後、講座へのアクセス情報をお送りします</li>
-                    </ol>
-                    <div class="application-cta">
-                        <a href="#contact-form" class="btn btn-primary btn-large smooth-scroll">今すぐ申し込む</a>
-                    </div>
-                </div>
-
-                <div class="application-divider">または</div>
-
-                <div class="application-method">
-                    <h4>▼ 方法2: メールで問い合わせ</h4>
-                    <p>
-                        <strong>メールアドレス:</strong> ●●●@●●●.com<br>
-                        件名に「Tメソッド講座について」とご記入ください
-                    </p>
-                    <div class="application-cta">
-                        <a href="mailto:●●●@●●●.com?subject=Tメソッド講座について" class="btn btn-secondary btn-large">まずは相談する</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 申し込みフォーム -->
-    <section class="section form-section" id="contact-form">
-        <div class="container">
-            <h2 class="section-title">申し込みフォーム</h2>
-            <div class="section-divider"></div>
-
-            <form class="contact-form" id="applicationForm" method="POST" action="submit.php">
-                <div class="form-group">
-                    <label for="name" class="form-label">お名前 <span class="required">必須</span></label>
-                    <input type="text" id="name" name="name" class="form-input" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="furigana" class="form-label">ふりがな <span class="required">必須</span></label>
-                    <input type="text" id="furigana" name="furigana" class="form-input" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="email" class="form-label">メールアドレス <span class="required">必須</span></label>
-                    <input type="email" id="email" name="email" class="form-input" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="phone" class="form-label">電話番号 <span class="required">必須</span></label>
-                    <input type="tel" id="phone" name="phone" class="form-input" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="occupation" class="form-label">職業/資格 <span class="required">必須</span></label>
-                    <input type="text" id="occupation" name="occupation" class="form-input" placeholder="例：鍼灸師、整体師など" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="motivation" class="form-label">受講の動機 <span class="optional">任意</span></label>
-                    <textarea id="motivation" name="motivation" class="form-textarea" rows="5" maxlength="500"></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="message" class="form-label">その他質問・相談事項 <span class="optional">任意</span></label>
-                    <textarea id="message" name="message" class="form-textarea" rows="5" maxlength="500"></textarea>
-                </div>
-
-                <div class="form-group form-checkbox">
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="privacy" name="privacy" required>
-                        <span class="checkbox-text"><a href="privacy.html" target="_blank">プライバシーポリシー</a>に同意する <span class="required">必須</span></span>
-                    </label>
-                </div>
-
-                <div class="form-submit">
-                    <button type="submit" class="btn btn-primary btn-large">申し込み内容を送信する</button>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <!-- よくある質問 -->
-    <section class="section faq-section" id="faq">
+    <section class="section" id="faq">
         <div class="container">
             <h2 class="section-title">よくある質問</h2>
-            <div class="section-divider"></div>
-
             <div class="faq-list">
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span class="faq-icon">❓</span>
-                        <h3>Q1: 心理学の知識がなくても大丈夫ですか？</h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p><strong>A:</strong> はい、大丈夫です。この講座は、心理学の専門知識がない治療家でも理解できるよう、基礎から丁寧に解説しています。難しい専門用語を覚える必要はありません。</p>
-                    </div>
+                <div class="faq-item reveal">
+                    <h3>Q. 心理学の知識がなくても大丈夫？</h3>
+                    <p>A. 基礎から解説するため問題ありません。</p>
                 </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span class="faq-icon">❓</span>
-                        <h3>Q2: 鍼灸師以外でも受講できますか？</h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p><strong>A:</strong> はい、受講できます。整体師、カイロプラクター、理学療法士など、患者さんと向き合うすべての治療家に役立つ内容です。</p>
-                    </div>
+                <div class="faq-item reveal">
+                    <h3>Q. 鍼灸師以外でも受講できる？</h3>
+                    <p>A. 治療家であれば職種は問いません。</p>
                 </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span class="faq-icon">❓</span>
-                        <h3>Q3: 動画はいつでも視聴できますか？</h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p><strong>A:</strong> はい、オンライン動画なので、24時間いつでも、ご自身のペースで学習できます。視聴期限は●ヶ月間です。</p>
-                    </div>
+                <div class="faq-item reveal">
+                    <h3>Q. 視聴期限は？</h3>
+                    <p>A. ●ヶ月間です。</p>
                 </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span class="faq-icon">❓</span>
-                        <h3>Q4: 質問サポートはどのように受けられますか？</h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p><strong>A:</strong> 専用のメールアドレスまたはフォームから質問を送っていただけます。●営業日以内に回答いたします。サポート期間は●ヶ月間です。</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span class="faq-icon">❓</span>
-                        <h3>Q5: 分割払いは可能ですか？</h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p><strong>A:</strong> はい、可能です。お申し込み時にご相談ください。●回までの分割払いに対応しています。</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span class="faq-icon">❓</span>
-                        <h3>Q6: 領収書は発行してもらえますか？</h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p><strong>A:</strong> はい、発行いたします。お申し込み時にお知らせください。</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span class="faq-icon">❓</span>
-                        <h3>Q7: すぐに効果は出ますか？</h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p><strong>A:</strong> 個人差はありますが、心の5階層や問診の型を理解し、実践することで、早い方では数週間で患者さんの反応の変化を感じられます。継続的な学習と実践が大切です。</p>
-                    </div>
-                </div>
-
-                <div class="faq-item">
-                    <div class="faq-question">
-                        <span class="faq-icon">❓</span>
-                        <h3>Q8: 返金保証はありますか？</h3>
-                    </div>
-                    <div class="faq-answer">
-                        <p><strong>A:</strong> ●日間の返金保証をご用意しています。（条件: ●●●）※要確認</p>
-                    </div>
-                </div>
-            </div>
-
-            <p class="faq-conclusion">
-                その他ご質問がありましたら、お気軽にお問い合わせください。
-            </p>
-
-            <div class="faq-cta">
-                <a href="#contact-form" class="btn btn-secondary btn-large smooth-scroll">お問い合わせ</a>
             </div>
         </div>
     </section>
 
-    <!-- 最後のメッセージ -->
-    <section class="section final-message-section" id="final-message">
-        <div class="final-message-bg">
-            <img src="images/final-message-bg.svg" alt="希望の光" class="placeholder-img" data-prompt="温かみのある光が差し込む治療院の室内。または、前を向いて歩く治療家のシルエット。希望を感じさせる構図。ぼかし効果">
-        </div>
-        <div class="final-message-overlay"></div>
-        <div class="final-message-content">
-            <h2 class="final-message-title">
-                「技術はあるのに、救えない患者がいる」<br>
-                その悔しさを、もう終わりにしませんか？
-            </h2>
-            <div class="section-divider light"></div>
-
-            <div class="final-message-text">
-                <p>あなたはすでに、技術を持っています。<br>経験も積んできました。</p>
-
-                <p>でも、それだけでは届かない患者さんがいる。<br>その現実に、悔しさを感じたことがあるはずです。</p>
-
-                <p>私も、同じ経験をしてきました。</p>
-
-                <p>20代の若い女性が、自己否定に苦しみながら命を絶ってしまった。<br>「どうすれば救えたのか」――<br>その問いは、今も消えません。</p>
-
-                <p>でも、その問いと向き合い続けた結果として、Tメソッドが生まれました。</p>
-
-                <p>今では、心因性症状や不定愁訴に対して、明確な見立てを立て、患者さんに説明できるようになりました。</p>
-
-                <p>「初めて言うのですが」という本音を引き出し、患者さんが涙を流して心を開く瞬間に立ち会えるようになりました。</p>
-
-                <p>そして何より、患者さんの人生が動き出すのを、目の前で見られるようになりました。</p>
-
-                <p class="final-message-emphasis">
-                    これは、特別な才能ではありません。<br>
-                    心の背景を整理する順番と、問診の型を身につければ、<br>
-                    あなたにもできるようになります。
-                </p>
-
-                <p class="final-message-call">
-                    「救えなかった」という後悔を、<br>
-                    「救えた」という喜びに変えませんか？<br>
-                    <br>
-                    患者さんの人生に深く関われる治療家に、<br>
-                    一緒になりましょう。
-                </p>
-            </div>
-
-            <div class="final-message-buttons">
-                <a href="#contact-form" class="btn btn-primary btn-large smooth-scroll">今すぐ申し込む</a>
-                <a href="mailto:●●●@●●●.com?subject=Tメソッド講座について" class="btn btn-secondary btn-large">無料相談を申し込む</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- フッター -->
-    <footer class="footer">
+    <section class="section section-alt" id="disclaimer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h3>運営者情報</h3>
-                    <p>
-                        運営者: 豊田（●●鍼灸院）<br>
-                        住所: 〒●●●-●●●● ●●県●●市●●<br>
-                        電話: ●●●-●●●●-●●●●<br>
-                        メール: ●●●@●●●.com
-                    </p>
-                </div>
-                <div class="footer-links">
-                    <h3>リンク</h3>
-                    <ul>
-                        <li><a href="privacy.html">プライバシーポリシー</a></li>
-                        <li><a href="tokushoho.html">特定商取引法に基づく表記</a></li>
-                        <li><a href="#contact-form" class="smooth-scroll">お問い合わせフォーム</a></li>
-                    </ul>
-                </div>
+            <h2 class="section-title">免責・注意事項</h2>
+            <ul class="disclaimer-list">
+                <li>本講座は医療行為の代替を目的としません。</li>
+                <li>診断・治療の効果を保証するものではありません。</li>
+                <li>受講後の結果には個人差があります。</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                <p>運営者情報</p>
+                <p>プライバシーポリシー / 特定商取引法に基づく表記 / お問い合わせ</p>
             </div>
-            <div class="footer-copyright">
-                <p>&copy; 2026 Tメソッド講座 All Rights Reserved.</p>
-            </div>
+            <p class="copyright">© 2026 Tメソッド講座</p>
         </div>
     </footer>
 
-    <!-- ページトップボタン -->
-    <a href="#top" class="page-top smooth-scroll" id="pageTop">
-        <span>▲</span>
-    </a>
+    <a href="#top" class="page-top smooth-scroll" id="pageTop">▲</a>
 
     <script src="script.js"></script>
 </body>
